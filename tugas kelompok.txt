@@ -1,0 +1,17 @@
+Tugas : 
+1. Tiap individu membuat database dan tabel sesuai dengan skema. 
+2. kelompok 1 dan 3 membuat link pelanggan dan fitur crud - list
+3. Kelompok 4 dan 6 membuat link dan fitur crud - list untuk barang
+4. Kelompok 7 dan 8 membuat link dan fitur (belum bisa crud) untuk fitur transaksi dan mempelajari AJAX. 
+
+Keterangan : 
+Semua harus pakai ORM dan Di buat tutorial silahkan bagi tugas di tiap kelompok masing2. 
+Semua wajib pakai boostrap 4. 
+
+Link Google Docs di Komentar pada Assignment ke tutorial : 
+Kelompok 1 : Link Google Docs
+
+Unsur penilaian: 
+1. Kontribusi individu
+2. Kerapian kode 
+3. Kualitas dari tutorial

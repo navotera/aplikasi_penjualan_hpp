@@ -1,0 +1,193 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+@media(min-width:768px) {
+    body {
+        margin-top: 50px;
+    }
+    /*html, body, #wrapper, #page-wrapper {height: 100%; overflow: hidden;}*/
+}
+
+#wrapper {
+    padding-left: 0;    
+}
+
+#page-wrapper {
+    width: 100%;        
+    padding: 0;
+    background-color: #fff;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 225px;
+    }
+
+    #page-wrapper {
+        padding: 22px 10px;
+    }
+}
+
+/* Top Navigation */
+
+.top-nav {
+    padding: 0 15px;
+}
+
+.top-nav>li {
+    display: inline-block;
+    float: left;
+}
+
+.top-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.top-nav>li>a:hover,
+.top-nav>li>a:focus,
+.top-nav>.open>a,
+.top-nav>.open>a:hover,
+.top-nav>.open>a:focus {
+    color: #fff;
+    background-color: #1a242f;
+}
+
+.top-nav>.open>.dropdown-menu {
+    float: left;
+    position: absolute;
+    margin-top: 0;
+    /*border: 1px solid rgba(0,0,0,.15);*/
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.top-nav>.open>.dropdown-menu>li>a {
+    white-space: normal;
+}
+
+/* Side Navigation */
+
+@media(min-width:768px) {
+    .side-nav {
+        position: fixed;
+        top: 60px;
+        left: 225px;
+        width: 225px;
+        margin-left: -225px;
+        border: none;
+        border-radius: 0;
+        border-top: 1px rgba(0,0,0,.5) solid;
+        overflow-y: auto;
+        background-color: #222;
+        /*background-color: #5A6B7D;*/
+        bottom: 0;
+        overflow-x: hidden;
+        padding-bottom: 40px;
+    }
+
+    .side-nav>li>a {
+        width: 225px;
+        border-bottom: 1px rgba(0,0,0,.3) solid;
+    }
+
+    .side-nav li a:hover,
+    .side-nav li a:focus {
+        outline: none;
+        background-color: #1a242f !important;
+    }
+}
+
+.side-nav>li>ul {
+    padding: 0;
+    border-bottom: 1px rgba(0,0,0,.3) solid;
+}
+
+.side-nav>li>ul>li>a {
+    display: block;
+    padding: 10px 15px 10px 38px;
+    text-decoration: none;
+    /*color: #999;*/
+    color: #fff;    
+}
+
+.side-nav>li>ul>li>a:hover {
+    color: #fff;
+}
+
+.navbar .nav > li > a > .label {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+  top: 14px;
+  right: 6px;
+  font-size: 10px;
+  font-weight: normal;
+  min-width: 15px;
+  min-height: 15px;
+  line-height: 1.0em;
+  text-align: center;
+  padding: 2px;
+}
+
+.navbar .nav > li > a:hover > .label {
+  top: 10px;
+}
+
+.navbar-brand {
+    padding: 5px 15px;
+}
+
+
+/* additional */
+#main .panel-heading {
+   color: rgb(255, 115, 0);
+   font-size: 1.4em;
+}
+
+.btn { 
+    text-shadow: none !important;
+    font-size: 12px;
+}
+
+label { font-weight: 500;}
+::placeholder {
+    color: rgb(243, 243, 243);
+    font-size: 12px;
+  }
+
+
+.notice { 
+    font-size: 15px;
+    color: #e4177f;
+    margin-top: 5px;
+}
+
+h3 { font-size: 1.3em; margin: 10px 0; color: rgb(185 140 108); border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 8px; }
+
+.list_transaksi_terakhir tr, td { font-size: 0.92em}
+tr.border-success { box-shadow: 0px 0px 0px 1px rgb(209 245 212); }
+tr.border-warning { box-shadow: 0px 0px 0px 1px rgb(238, 245, 209); }
+
+    @media print{
+        .noprint{
+            display:none;
+        }
+     }
+
+
+     .sidebarmenu .panel-collapse ul li {
+        padding: 5px 10px;
+        color: white;
+     }
+
+     .sidebarmenu .panel-collapse ul li a {
+        padding: 5px 10px;
+        color: rgb(226, 222, 222);
+     }
+     
